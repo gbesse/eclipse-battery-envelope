@@ -1,0 +1,34 @@
+{
+  "capacity_wh": 100,
+  "initial_wh": [
+    70,
+    80
+  ],
+  "reserve_wh": 20,
+  "segments": [
+    {
+      "id": "sun",
+      "duration_hours": 1,
+      "generation_w": [
+        30,
+        40
+      ],
+      "load_w": [
+        10,
+        15
+      ]
+    },
+    {
+      "id": "eclipse",
+      "duration_hours": 2,
+      "generation_w": [
+        0,
+        0
+      ],
+      "load_w": [
+        25,
+        35
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1 @@
+DESCRIPTION = {'fr': 'Propager les bornes de charge sous éclipses et incertitudes', 'en': 'Propagate battery-charge bounds through eclipses and uncertainty', 'es': 'Propagar cotas de carga durante eclipses e incertidumbre'}

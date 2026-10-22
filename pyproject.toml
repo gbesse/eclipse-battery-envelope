@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "eclipse-battery-envelope"
+version = "0.1.0a1"
+description = "FR: Propager les bornes de charge sous éclipses et incertitudes | EN: Propagate battery-charge bounds through eclipses and uncertainty | ES: Propagar cotas de carga durante eclipses e incertidumbre"
+requires-python = ">=3.11"
+license = "MIT"
+
+[project.scripts]
+eclipse-battery-envelope = "eclipse_battery_envelope.__main__:main"
+
+[tool.setuptools.packages.find]
+include = ["eclipse_battery_envelope*"]
